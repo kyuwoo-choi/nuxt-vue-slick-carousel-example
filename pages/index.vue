@@ -11,8 +11,6 @@
 <script>
 import VueSlickCarousel from 'vue-slick-carousel'
 
-import Logo from '~/components/Logo.vue'
-
 export default {
   components: {
     VueSlickCarousel
