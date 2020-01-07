@@ -1,7 +1,7 @@
 <template>
   <div class="carousel-wrapper">
     <VueSlickCarousel v-bind="slickOptions">
-      <div v-for="i in 5" :key="i" class="img-warpper">
+      <div v-for="i in 5" :key="i" class="img-wrapper">
         <img :src="`https://picsum.photos/200/100?random=${i}`" />
       </div>
     </VueSlickCarousel>
@@ -31,7 +31,7 @@ export default {
 .carousel-wrapper {
   padding: 40px;
 }
-.img-warpper img {
+.img-wrapper img {
   margin: auto;
   width: 200px;
   height: 100px;
