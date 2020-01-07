@@ -43,9 +43,7 @@ export default {
    ** Build configuration
    */
   build: {
-    /*
-     ** You can extend webpack config here
-     */
+    analyze: true,
     extend(config, ctx) {},
     babel: {
       presets: [
