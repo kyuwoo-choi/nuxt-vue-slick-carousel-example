@@ -5,7 +5,8 @@
   "author": "KyuWoo Choi",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt build && nuxt start",
+    "develop": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
