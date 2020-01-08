@@ -23,14 +23,11 @@ export default {
   /*
    ** Global CSS
    */
-  css: [
-    'vue-slick-carousel/dist/vue-slick-carousel.css',
-    'vue-slick-carousel/dist/vue-slick-carousel-theme.css',
-  ],
+  css: ['vue-slick-carousel/dist/vue-slick-carousel.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{src: './plugins/vue-slick-carousel.js'}],
+  plugins: [{ src: './plugins/vue-slick-carousel.js' }],
   /*
    ** Nuxt.js dev-modules
    */

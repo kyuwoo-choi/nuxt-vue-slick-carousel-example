@@ -14,8 +14,7 @@ export default {
     return {
       slickOptions: {
         slidesToShow: 3,
-        arrows: false,
-        dots: true,
+        arrows: false
       }
     }
   }
