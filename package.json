@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "2.6.0",
-    "vue-slick-carousel": "1.0.2"
+    "vue-slick-carousel": "^1.0.5"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
